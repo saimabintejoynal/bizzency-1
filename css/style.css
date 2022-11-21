@@ -1,0 +1,161 @@
+/* Common Css Start */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Ubuntu' sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+img {
+  display: block;
+}
+body {
+  font-family: ;
+}
+.container {
+  width: 1170px;
+  margin: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* //Common Css End */
+/* header css section start*/
+header{
+
+} 
+header .top_bar{
+  background-color: #0f2f44;
+  font-size: 16px;
+  font-family: 'ubuntu';
+  font-weight: 400;
+  color: #fefefe;
+  padding:10px 0;
+} 
+.top_bar .bar_item-1{
+  width: 50%;
+}
+.top_bar .bar_item-2{
+  width: 50%;
+  text-align: right;
+}
+nav .logo{
+  width:20%;
+}
+nav .menu{
+  width:80%;
+}
+nav .row{
+  align-items: center;
+}
+nav .menu ul{
+  justify-content: flex-end;
+
+}
+nav .menu ul li{
+  padding:40px 20px;
+}
+nav .menu ul li ul{
+  position: absolute;
+  /*visibility: hidden;*/
+}
+/*
+nav .menu ul li ul li{
+  display: block;
+}
+nav .menu ul li ul:hover > a{
+  visibility: visible;
+  
+}
+*/
+nav .menu ul li a{
+  font-size: 16px;
+  font-family: 'ubuntu';
+  font-weight:500;
+  color: #000;
+  transition: .5s;
+}
+nav .menu ul li:hover > a{
+  background:#fff9e6;
+  color: #ffc712;
+}
+nav .menu ul li . i{
+  color: #999;
+  border:1px solid #999;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  cursor: pointer;
+}
+
+/*// header css section end*/
+/* banner css section start*/
+#banner .banner_img{
+ background: url(../image/banner.jpg);
+ background-size:right cover;
+ background-position:center;
+ height: 600px;
+
+}
+#banner .banner_img .inner_container{
+  width: 40%;
+  padding: 140px 0;
+  
+}
+#banner .banner_img .inner_container h2{
+  color:#0f2f44 ;
+  font-size:50px;
+  font-family:'Ubuntu' ;
+  font-weight:300;
+}
+#banner .banner_img .inner_container h1{
+  color:#0f2f44 ;
+  font-size:80px;
+  font-family:'Abril Fatface' ;
+  font-weight:400;
+  text-transform: uppercase;
+
+}
+#banner .banner_img .inner_container h3{
+  color:#8484bf ;
+  font-size:32px;
+  font-family:'Ubuntu' ;
+  font-weight:300;
+  letter-spacing: 8px;
+
+}
+#banner .banner_img .inner_container p{
+  color:#444 ;
+  font-size:14px;
+  font-family:'Open sans' ;
+  font-weight:400;
+  line-height: 24px;
+  padding: 28px 0;
+}
+#banner .banner_img .inner_container button{
+  color:#fff ;
+  font-size:20px;
+  font-family:'Ubuntu' ;
+  font-weight:500;
+  padding:0 15px;
+  background-color: #8484bf;
+  border: 1px solid #8484bf;
+  border-radius: 10%;
+  display:inline-block;
+}
+#banner .banner_img .inner_container img{
+  display: inline-block;
+}
+/*// banner css section end*/
